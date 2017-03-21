@@ -1,4 +1,4 @@
-LineageOS
+LegendRom
 ===========
 
 Submitting Patches
@@ -26,17 +26,18 @@ To view the status of your and others' patches, visit [LineageOS Code Review](ht
 Getting Started
 ---------------
 
-To get started with Android/LineageOS, you'll need to get
+To get started with Android/LegendRom, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 
-    repo init -u git://github.com/LineageOS/android.git -b cm-14.1
+    repo init -u git://github.com/LegendRom-N/android.git -b cm-14.1
 
 Then to sync up:
 
-    repo sync
+    repo sync -j#
 
+-j# - where '#' is to be replaced by no. of jobs you want(for default use 8)
 Please see the [LineageOS Wiki](http://wiki.lineageos.org/) for building instructions.
 
 For more information on this Github Organization and how it is structured,
