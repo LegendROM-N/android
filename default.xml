@@ -7,6 +7,9 @@
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
+  
+    <remote  name="LegendROM-N"
+           fetch="https://github.com/LegendROM-N/" /> 
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
