@@ -401,7 +401,7 @@
   <project path="packages/apps/PhoneCommon" name="LegendROM-N/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="LegendROM-N" rivision="staging/cm-14.0" groups="pdk-fs" />
+  <project path="packages/apps/Settings" name="LegendROM-N/android_packages_apps_Settings" rivision="staging/cm-14.0" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="LineageOS/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/StorageManager" name="LineageOS/android_packages_apps_StorageManager" />
   <project path="packages/apps/Tag" name="LineageOS/android_packages_apps_Tag" groups="pdk-fs" />
