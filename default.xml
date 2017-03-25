@@ -305,7 +305,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/av" name="android_frameworks_av" remote="LegendROM-N" revision="cm-14.1" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="LegendROM-N"revision="blur" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="LegendROM-N" revision="blur" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
