@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Oneplus One (bacon) -->
+  <project name="LegendROM-N/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" />
+  <project name="LegendROM-N/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" />
+  <project name="LegendROM-N/android_device_qcom_common" path="device/qcom/common" remote="github" />
+  <project name="LineageOS/android_device_oppo_common" path="device/oppo/common" remote="github" />
+  <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-14.1" />
+
+  <!-- Oneplus 3-3T -->
+  <project name="LegendROM-N/android_device_oneplus_oneplus3" path="device/oneplus/oneplus3" remote="github" revision="cm-14.1" />
+  <project name="LegendROM-N/android_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="github" />
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="github" />
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="github" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
+  
+  <!-- SDCLANG-3.8 -->
+  <project name="LegendROM-N/platform_vendor_qcom_sdclang-3.8" path="vendor/qcom/sdclang-3.8/linux-x86" remote="github" revision="cm-14.1" />
+  
+  <!-- ThemeInterfacer -->
+  <project name="substratum/interfacer" path="packages/apps/ThemeInterfacer" remote="github" revision="n-rootless" />
+
+  <!-- OmniRom additions -->
+  <project name="omnirom/android_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="github" revision="android-7.1" />
+
+</manifest>

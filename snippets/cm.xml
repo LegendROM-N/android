@@ -3,6 +3,7 @@
 
   <!-- LineageOS additions -->
   <project path="android" name="LegendROM-N/android" />
+  <project path="external/ahbottomnavigation" name="LineageOS/android_external_ahbottomnavigation" />
   <project path="external/bash" name="LineageOS/android_external_bash" />
   <project path="external/cmsdk-api-coverage" name="LineageOS/android_external_cmsdk-api-coverage" />
   <project path="external/exfat" name="LineageOS/android_external_exfat" />
@@ -39,6 +40,7 @@
   <project path="packages/apps/CMBugReport" name="LineageOS/android_packages_apps_CMBugreport" />
   <project path="packages/apps/CMParts" name="LegendROM-N/android_packages_apps_CMParts" />
   <project path="packages/apps/CMUpdater" name="LegendROM-N/android_packages_apps_CMUpdater" />
+  <project path="packages/apps/CustomTiles" name="LineageOS/android_packages_apps_CustomTiles" />
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
   <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
@@ -60,7 +62,7 @@
   <project path="packages/themes/HexoLibre" name="LineageOS/android_packages_themes_HexoLibre" groups="themes" />
   <project path="prebuilts/cmsdk" name="LineageOS/android_prebuilts_cmsdk" clone-depth="1" />
   <project path="system/extras/su" name="LineageOS/android_system_extras_su" />
-  <project path="vendor/cm" name="LegendROM-N/android_vendor_cm" revision="staging/cm-14.0"/>
+  <project path="vendor/cm" name="LegendROM-N/android_vendor_cm" />
   <project path="vendor/cmsdk" name="LegendROM-N/cm_platform_sdk" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
@@ -115,4 +117,14 @@
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" />
+
+  <!-- Infrastructure -->
+  <project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="master" />
+  <project path="lineage/cve" name="LineageOS/cve_tracker" groups="infra" revision="master" />
+  <project path="lineage/jenkins" name="LineageOS/hudson" groups="infra" revision="master" />
+  <project path="lineage/mirror" name="LineageOS/mirror" groups="infra" revision="master" />
+  <project path="lineage/stats" name="LineageOS/tribble-tracker" groups="infra" revision="master" />
+  <project path="lineage/updater" name="LineageOS/lineageos_updater" groups="infra" revision="master" />
+  <project path="lineage/website" name="LineageOS/www" groups="infra" revision="master" />
+  <project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" />
 </manifest>
