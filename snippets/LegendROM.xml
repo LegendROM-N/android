@@ -23,6 +23,7 @@
   <!-- Oneplus2 -->
   <project name="LegendROM-N/android_device_oneplus_oneplus2" path="device/oneplus/oneplus2" remote="github" />
   <project name="LegendROM-N/android_kernel_oneplus_msm8994" path="kernel/oneplus/msm8994" remote="github" />
+  <project name="LegendROM-N/android_hardware_qcom_camera-op2" path="hardware/qcom/camera_op2" remote="github" revision="aosp-7.1.2" />
   
   <!-- SDCLANG-3.8 -->
   <project name="LegendROM-N/platform_vendor_qcom_sdclang-3.8" path="vendor/qcom/sdclang-3.8/linux-x86" remote="github" />
