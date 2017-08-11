@@ -27,6 +27,12 @@
   
   <!-- SDCLANG-3.8 -->
   <project name="LegendROM-N/platform_vendor_qcom_sdclang-3.8" path="vendor/qcom/sdclang-3.8/linux-x86" remote="github" />
+
+  <!-- Busybox -->
+  <project name="LegendROM-N/android_external_busybox" path="external/busybox" remote="github" revision="cm-14.1" />
+
+  <!-- OTAUpdates -->
+  <project name="LegendROM-N/android_packages_apps_OTAUpdates" path="packages/apps/OTAUpdates" remote="github" revision="cm-14.1" />
   
   <!-- ThemeInterfacer -->
   <project name="substratum/interfacer" path="packages/apps/ThemeInterfacer" remote="github" revision="n-rootless" />
