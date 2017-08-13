@@ -35,7 +35,7 @@
   <project name="LegendROM-N/android_packages_apps_OTAUpdates" path="packages/apps/OTAUpdates" remote="github" revision="cm-14.1" />
   
   <!-- ThemeInterfacer -->
-  <project name="substratum/interfacer" path="packages/apps/ThemeInterfacer" remote="github" revision="n-rootless" />
+  <project name="LegendROM-N/interfacer" path="packages/apps/ThemeInterfacer" remote="github" revision="n-rootless" />
 
   <!-- OmniRom additions -->
   <project name="omnirom/android_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="github" revision="android-7.1" />
